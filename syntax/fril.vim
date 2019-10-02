@@ -5,6 +5,7 @@ syntax keyword frilTodos TODO XXX FIXME NOTE
 syntax keyword frilKeywords
 	\ ?
 	\ !
+	\ |
 	\ abort
 	\ addcl
 	\ and
