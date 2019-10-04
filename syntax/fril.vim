@@ -5,7 +5,6 @@ syntax keyword frilTodos TODO XXX FIXME NOTE
 syntax keyword frilKeywords
 	\ ?
 	\ !
-	\ |
 	\ abort
 	\ addcl
 	\ and
@@ -189,6 +188,7 @@ syntax keyword frilKeywords
 	\ wsc
 	\ wspaces
 	\ wsv
+syntax match frilKeywords "\v\|"
 
 " Match numbers
 syntax match frilNumber "\v<\d+>"
